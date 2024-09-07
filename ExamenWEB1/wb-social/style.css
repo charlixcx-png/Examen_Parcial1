@@ -1,0 +1,150 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    color:#502050;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url('data:image/svg+xml;utf8,<svg width="1085" height="673" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.237%" x2="9.399%" y2="32.159%" id="a"><stop stop-color="%238A4389" stop-opacity="0" offset="0%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/></linearGradient></defs><path d="M355 800c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C1224.157 181.442 1330 136.116 1440 127v673H355z" transform="translate(-355 -127)" fill="url(%23a)" fill-rule="evenodd" opacity=".05"/></svg>');
+    background-repeat: url('data:image/svg+xml;utf8,<svg width="584" height="362" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.212%" x2="9.399%" y2="32.183%" id="a"><stop stop-color="#8A4389" stop-opacity="0" offset="0%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/></linearGradient></defs><path d="M0 362c40.022-82.8 115.736-135.154 227.141-157.064 167.108-32.864 103.85-66.012 185.949-131.796C467.823 29.284 524.793 4.904 584 0v362H0z" transform="rotate(180 292 181)" fill="url(#a)" fill-rule="evenodd" opacity=".05"/></svg>');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.reviews-section {
+    text-align: left;
+}
+.header-ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.reviews-header {
+    flex: 1;
+    max-width: 40%;
+}
+.reviews-header h1 {
+    font-size: 2.5rem;
+    color: #502050;
+}
+
+.reviews-header p {
+    font-size: 1.3rem;
+    color: #937b92;
+    margin: 10px 0 30px;
+}
+
+/* Ratings Section */
+.ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rating-item {
+    display: flex;
+    align-items: center;
+    background-color: #f7f2f7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.rating-item:nth-child(2) {
+    margin-left: 100px;
+}
+
+.rating-item:nth-child(3) {
+    margin-left: 180px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonial {
+    background-color: #502050;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-right: 20px;
+    display: flex; /* Flex para alinear la imagen y texto */
+    flex-direction: column; /* Mantiene la disposición vertical */
+    align-items: center; /* Centra el contenido */
+}
+
+/* Ajuste para el segundo testimonio */
+.testimonial:nth-child(2) {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* Ajuste para el tercer testimonio */
+.testimonial:nth-child(3) {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.testimonial.testimonial-3 {
+    margin-left: 60px; /* Mueve este aún más hacia la derecha */
+    margin-top: 70px;
+}
+/* Imagen testimonial */
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Contenedor flex para imagen y texto */
+.testimonial-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente imagen y texto */
+    justify-content: center;
+    width: 100%;
+}
+
+/* Texto testimonial */
+.testimonial-info {
+    margin-left: 15px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilo del nombre */
+.testimonial h3 {
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+/* Estilo de "Verified Buyer" */
+.verified {
+    font-style: none;
+    font-size: 1rem;
+    color: #ee68a4;
+    margin-bottom: 10px;
+}
+
+/* Texto del testimonio */
+.testimonial p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 10px;
+}
